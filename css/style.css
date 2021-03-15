@@ -30,3 +30,8 @@ body {
 .nav-left , .nav-right {
   align-self: center;
 }
+.dropdown-menu {
+  position: absolute;
+  padding: 10px;
+  display: none;
+}
