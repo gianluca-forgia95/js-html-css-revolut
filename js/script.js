@@ -1,10 +1,22 @@
 //Variabili utili
 var navItems = $('.menu-drop  li');
-console.log(navItems);
+
 
 //Evento click sulla nav
 navItems.click(
   function () {
-   $(this).children('.dropdown-menu').fadeToggle();
+   $(this).children('.dropdown-menu').slideToggle();
+  }
+);
+//Evento al mouse enter
+navItems.mouseenter(
+  function () {
+     $(this).children('.dropdown-menu').fadeIn('slow');
+  }
+);
+//Evento al mouse leave
+navItems.mouseleave(
+  function () {
+     $(this).children('.dropdown-menu').fadeOut('fast');
   }
 );

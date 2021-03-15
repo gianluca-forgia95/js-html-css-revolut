@@ -9,7 +9,7 @@ body {
 /* Mix */
 .list-inline > li  {
   display: inline-block;
-  margin-left: 20px;
+
 
 }
 /* Stile Header */
@@ -26,12 +26,21 @@ body {
   text-decoration: none;
   color: black;
   font-size: 14px;
+  margin-left: 50px;
+
 }
 .nav-left , .nav-right {
   align-self: center;
 }
+.nav-right a {
+  margin-left: 80px;
+}
 .dropdown-menu {
   position: absolute;
-  padding: 10px;
   display: none;
+}
+.dropdown-menu ul {
+  list-style: none;
+  line-height: 40px;
+  margin: auto;
 }
