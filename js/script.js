@@ -5,6 +5,6 @@ console.log(navItems);
 //Evento click sulla nav
 navItems.click(
   function () {
-   $('.dropdown-menu').fadeIn();
+   $(this).children('.dropdown-menu').fadeToggle();
   }
 );
