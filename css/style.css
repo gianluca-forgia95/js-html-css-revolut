@@ -38,9 +38,34 @@ body {
 .dropdown-menu {
   position: absolute;
   display: none;
+  margin-top: 20px;
 }
 .dropdown-menu ul {
   list-style: none;
   line-height: 40px;
   margin: auto;
+}
+.btn-nav {
+  padding: 20px;
+}
+.btn-1 , .btn-2 {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-1:focus , .btn-2:focus {
+  outline: transparent;
+}
+.btn-1 {
+  background-color: lightgrey;
+  border: transparent;
+  outline: hidden;
+  font-weight: bold;
+}
+.btn-2 {
+  background-color: #000;
+  border: transparent;
+  color: #fff;
+  outline: hidden;
+  font-weight: bold;
 }
