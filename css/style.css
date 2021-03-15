@@ -18,7 +18,7 @@ body {
   align-items: center;
 }
 #logo {
-  max-width: 50px;
+  max-width: 40px;
   vertical-align: middle;
 }
 .nav-left li a {
@@ -39,12 +39,16 @@ body {
 .nav-right a {
   margin-left: 60px;
 }
+.nav-right {
+  position: relative;
+  padding: 0 40px;
+}
 /* Stile menu-dropdown */
 .dropdown-menu {
   position: absolute;
   display: none;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 40px;
   border-radius: 14px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -55,13 +59,13 @@ body {
   padding: 10px;
 }
 .dropdown-menu li a {
-  color: #c0c2cd;
+  color: #5d736f;
   font-size: 11px;
   margin: auto;
 }
 
 .btn-nav {
-  padding: 20px;
+  padding: 10px;
 }
 .btn-1 , .btn-2 {
   padding: 10px;
